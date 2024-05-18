@@ -12,13 +12,12 @@ module.exports = {
       black: {
         DEFAULT: "#000000",
         10: "#262626",
+        20: "#6F6F6F",
       },
       white: {
         DEFAULT: "#FFFFFF",
-        30: "#F5F5F5",
-        40: "#F6F6F6",
-        50: "#F1F1F1",
-        60: "#F8F8F8",
+        10: "#EEE5FFBD",
+        20: "#EEE5FF",
       },
       green: {
         10: "#82B440",
@@ -33,18 +32,20 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      lineHeight: {
+        "custom-55": "55px",
+        "custon-24": "24px",
+      },
       screens: {
         df: "0px",
         // => @media (min-width: 200px) { ... }
 
         xs: { min: "200px", max: "375px" },
 
-        // => @media (min-width: 320px, max-width: 540px) { ... }
-        mobile_540_range: { min: "320px", max: "540px" },
-        mobile_540: "540px",
+        mobile_580: "580px",
 
         // => @media (min-width: 200px, max-width: 375px) { ... }
-        sm: "640px",
+        sm: "480px",
         // => @media (min-width: 640px) { ... }
 
         md: "768px",
@@ -61,6 +62,7 @@ module.exports = {
       },
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],
+        sora: ["Sora", "sans-serif"],
       },
     },
   },
