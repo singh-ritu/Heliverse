@@ -28,13 +28,16 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "custom-gradient": "linear-gradient(90deg, #5E11FF 30%, #F87516 100%)",
+        "custom-gradient-2":
+          "linear-gradient(180deg, #0D061F 0%, #251E35 100%);",
       },
       lineHeight: {
         "custom-55": "55px",
         "custon-24": "24px",
+        "custon-75": "75px",
+        "custon-45": "45px",
+        "custon-40": "40px",
       },
       screens: {
         df: "0px",
