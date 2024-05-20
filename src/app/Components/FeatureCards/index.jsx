@@ -19,9 +19,9 @@ const card_logo = [
 ];
 function FeatureCards() {
   return (
-    <div className="lg:flex justify-center gap-5">
+    <div className="lg:flex justify-center">
       {card_logo.map((card) => (
-        <div className=" w-full bg-custom-gradient-2 mt-5 mx-5 p-8 rounded-2xl text-left border-solid border-2 border-white/10 transition-all duration-300">
+        <div className=" w-full bg-custom-gradient-2 mt-20 mx-3 p-8 rounded-2xl text-left border-solid border-2 border-white/10 transition-all duration-300">
           <img src={card.image} alt="no-img" />
           <h2 className="font-sora text-xl text-white-20 leading-custom-45 py-5">
             {card.title}

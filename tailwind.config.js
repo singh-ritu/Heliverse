@@ -42,6 +42,8 @@ module.exports = {
         "custom-45": "45px",
         "custom-40": "40px",
         "custom-30": "30px",
+        "custom-50": "50px",
+        "custom-60": "60px",
       },
       screens: {
         df: "0px",
@@ -64,7 +66,7 @@ module.exports = {
         xl: "1280px",
         // => @media (min-width: 1280px) { ... }
 
-        "2xl": "1536px",
+        "2xl": "1440px",
         // => @media (min-width: 1536px) { ... }
       },
       fontFamily: {
