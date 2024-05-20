@@ -18,6 +18,7 @@ module.exports = {
         DEFAULT: "#FFFFFF",
         10: "#EEE5FFBD",
         20: "#EEE5FF",
+        30: "#EEE5FFB8",
       },
       green: {
         10: "#82B440",
@@ -31,13 +32,16 @@ module.exports = {
         "custom-gradient": "linear-gradient(90deg, #5E11FF 30%, #F87516 100%)",
         "custom-gradient-2":
           "linear-gradient(180deg, #0D061F 0%, #251E35 100%);",
+        "custom-gradient-3":
+          "linear-gradient(90deg, #F87516 0%, #5E11FF 100%);",
       },
       lineHeight: {
         "custom-55": "55px",
-        "custon-24": "24px",
-        "custon-75": "75px",
-        "custon-45": "45px",
-        "custon-40": "40px",
+        "custom-24": "24px",
+        "custom-75": "75px",
+        "custom-45": "45px",
+        "custom-40": "40px",
+        "custom-30": "30px",
       },
       screens: {
         df: "0px",

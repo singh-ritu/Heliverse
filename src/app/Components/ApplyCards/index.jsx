@@ -17,10 +17,10 @@ const cardImage = [
 
 function ApplyCards() {
   return (
-    <div>
+    <div className="pt-8 flex">
       {cardImage.map((card) => (
-        <div className="bg-custom-gradient-2 p-5 m-5 rounded-lg">
-          <h2 className="font-sora text-xl text-white-20 mb-4 leading-custon-40">
+        <div className="bg-custom-gradient-2 p-5 m-5 rounded-2xl border-solid border-2 border-white/10 transition-all duration-300">
+          <h2 className="font-sora text-xl text-white-20 mb-4 leading-custom-40">
             {card.title}
           </h2>
           <p className="text-white-10 font-outfit text-base">{card.detail}</p>
