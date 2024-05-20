@@ -56,7 +56,7 @@ export default function Home() {
               you to effortlessly infuse your website with visually stunning
               motion art elements.
             </p>
-            <button className="text-white font-sora w-96 text-xl flex justify-center gap-3 bg-custom-gradient px-5 py-3 mt-8 rounded-2xl">
+            <button className="text-white font-sora w-96 text-xl flex items-center justify-center gap-3 bg-custom-gradient px-5 py-3 mt-8 rounded-2xl">
               <p>Purchase from Envato</p>
               <img src="assets/arrow.svg" alt="no-img" className="text-white" />
             </button>
